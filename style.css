@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    min-height: 100vh;
+}
+.container{
+   
+    background-color: black;
+    position: relative;
+ 
+}
+.first{
+    height:720px;
+    width: 80%;
+    /* min-height: 100%; */
+    background: linear-gradient(90deg,rgba(rgb(#fff))50%,rgba(rgb(224, 213, 196)60%));
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    /* border: transparent; */
+    z-index: 2;
+}
